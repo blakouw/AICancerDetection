@@ -5,7 +5,7 @@ import numpy as np
 
 
 def read_and_prepare():
-    images = glob.glob(r'C:\Users\ckami\Desktop\archive\**\*.png', recursive=True)
+    images = glob.glob(r'[path_to_folder]\archive\**\*.png', recursive=True)
 
     nie_rak = []
     rak = []
